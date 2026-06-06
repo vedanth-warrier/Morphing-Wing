@@ -27,18 +27,18 @@ to 5.68) validated through wind tunnel testing.
   and eliminate sharp-corner stress concentrations via filleting
 
 ### Design Iterations
-![V2 CAD Model](images/cad-v2.png)
-![V3 CAD Model](images/cad-v3.png)
-![V4 CAD Model](images/cad-v4.png)
+<img src="images/cad-v2.png" width="50%">
+<img src="images/cad-v3.png" width="50%">
+<img src="images/cad-v4.png" width="50%">
 
 ### Failure Analysis
-![Laser-Cut Acrylic Failure Testing](images/failure-acrylic.png)
-![Laser-Cut Plywood Failure Testing](images/failure-plywood.png)
+<img src="images/failure-acrylic.png" width="50%">
+<img src="images/failure-plywood.png" width="50%">
 
 ### Final Prototype
-![Final CAD of Leading Edge](images/cad-front.png)
-![Final CAD of Tail](images/cad-v4.png)
-![3D Printed Prototype](images/prototype-physical.png)
+<img src="images/cad-front.png" width="50%">
+<img src="images/cad-v4.png" width="50%">
+<img src="images/prototype-physical.png" width="50%">
 
 ## Embedded Control System
 - **Microcontroller:** Arduino Uno
@@ -49,8 +49,8 @@ to 5.68) validated through wind tunnel testing.
 - **Resultant Morphing range:** 43° angular displacement (10 cm linear)
   which exceeds the 7cm design requirement
 
-![Circuit Diagram](images/circuit-diagram.png)
-![Arduino Setup](images/arduino-setup.png)
+<img src="images/circuit-diagram.png" width="50%">
+<img src="images/arduino-setup.png" width="50%">
 
 ## Wind Tunnel Testing
 Three tests were conducted at varying angles of attack and morphing 
@@ -68,8 +68,8 @@ from increasing the angle of attack, suggesting that the morphing
 successfully reduced the drag. Test 3 shows the tradeoff where greater 
 morphing increases lift but also induces more drag, reducing L/D.
 
-![Wind Tunnel Setup](images/wind-tunnel.png)
-![Wind Tunnel Data Graph](images/wind-tunnel-graph.png)
+<img src="images/wind-tunnel.png" width="50%">
+<img src="images/wind-tunnel-graph.png" width="50%">
 
 ## Skills Demonstrated
 - SolidWorks CAD and stress simulation
