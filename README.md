@@ -36,7 +36,8 @@ to 5.68) validated through wind tunnel testing.
 ![Laser-Cut Plywood Failure Testing](images/failure-plywood.png)
 
 ### Final Prototype
-![Final CAD Model](images/cad-final.png)
+![Final CAD of Leading Edge](images/cad-front.png)
+![Final CAD of Tail](images/cad-v4.png)
 ![3D Printed Prototype](images/prototype-physical.png)
 
 ## Embedded Control System
@@ -68,7 +69,6 @@ successfully reduced the drag. Test 3 shows the tradeoff where greater
 morphing increases lift but also induces more drag, reducing L/D.
 
 ![Wind Tunnel Setup](images/wind-tunnel.png)
-![Wing Mounted in Tunnel](images/wind-tunnel-mounted.png)
 ![Wind Tunnel Data Graph](images/wind-tunnel-graph.png)
 
 ## Skills Demonstrated
