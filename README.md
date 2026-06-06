@@ -1,16 +1,17 @@
 # Morphing Wing Aerodynamic Prototype
 
-Designed, fabricated, and tested a scale morphing wing prototype capable 
-of dynamically altering its aerodynamic profile across simulated flight 
-conditions.
+Designed a scale morphing wing prototype capable of altering its aerodynamic
+profile using SolidWorks, fabricated it using laser-cutting and 3D printing, 
+and tested it using a wind-tunnel.
 
 ## Overview
 
-Traditional fixed-wing aircraft use discrete control surfaces that are 
-aerodynamically suboptimal across different flight phases. This project 
-developed a continuously morphing wing section using a compliant 
-mechanism — eliminating traditional hinges in favour of elastic 
-deformation of the structure itself.
+The extent of the motion on a normal fixed-wing aircraft is purely due to 
+the flaps that are on the back of each wing, which is aerodynamically 
+suboptimal across different Angles of Attack. This project developed a
+new type of wing that was capable of on-the-fly 'morphing' using a 
+compliant mechanism, eliminating traditional hinges in the favour of elastic
+deformation.
 
 **Key result:** ~13% improvement in lift-to-drag ratio (L/D from 5.00 
 to 5.68) validated through wind tunnel testing.
@@ -18,12 +19,12 @@ to 5.68) validated through wind tunnel testing.
 ## Design
 
 - **Airfoil:** NACA 0012
-- **Mechanism:** Chevron-based compliant structure — selected after 
+- **Mechanism:** Chevron-based compliant structure: selected after 
   iterative testing of zig-zag and rectangular alternatives
-- **Material:** PLA (3D printed) — chosen for balance of flexibility 
-  and stiffness; acrylic laser-cut versions used for failure analysis 
-  to identify stress concentration points
-- **CAD & Simulation:** SolidWorks — stress simulation used to identify 
+- **Material:** PLA (3D printed): chosen for balance of flexibility 
+  and stiffness; however, acrylic laser-cut versions were used for
+  failure analysis and to identify stress concentration points
+- **CAD & Simulation:** SolidWorks: stress simulation used to identify 
   and eliminate sharp-corner stress concentrations via filleting
 
 ![CAD Model](images/cad-model.png)
@@ -31,19 +32,19 @@ to 5.68) validated through wind tunnel testing.
 ## Embedded Control System
 
 - **Microcontroller:** Arduino Uno
-- **Actuation:** 2x servo motors embedded in the leading-edge housing
-- **Control:** Open-loop direct-mapping — potentiometer analog input 
+- **Actuation:** 2 servo motors embedded in the leading-edge housing
+- **Control:** Open-loop direct-mapping; potentiometer analog input 
   mapped to servo position via Arduino, enabling real-time wing profile 
   adaptation
-- **Morphing range:** 43° angular displacement (10 cm linear), 
-  exceeding the 7 cm design requirement
+- **Resultant Morphing range:** 43° angular displacement (10 cm linear)
+  which exceeds the 7cm design requirement
 
 ![Circuit Diagram](images/circuit-diagram.png)
 
 ## Wind Tunnel Testing
 
-Three tests conducted at varying angles of attack and morphing 
-configurations:
+Three tests were conducted at varying angles of attack and morphing 
+configurations as follows:
 
 | Test | Angle of Attack | Morphing | Lift (mN) | Drag (mN) | L/D  |
 |------|----------------|----------|-----------|-----------|------|
@@ -51,11 +52,11 @@ configurations:
 | 2    | 5°             | 10° down | 341       | 60        | 5.68 |
 | 3    | 10°            | 20° down | 542       | 130       | 4.17 |
 
-Tests 1→2 demonstrate that moderate morphing combined with increased 
-angle of attack improves L/D without drag penalty. Test 3 shows the 
-tradeoff — greater morphing increases lift but induces drag, reducing 
-L/D. This highlights the importance of morphing strategy optimisation 
-for each flight phase.
+Tests 1→2 demonstrate that with moderate morphing and and increased 
+angle of attack improves L/D without the typical drag penalty that comes
+from increasing the angle of attack, suggesting that the morphing
+successfully reduced the drag. Test 3 shows the tradeoff where greater 
+morphing increases lift but also induces more drag, reducing L/D.
 
 ![Wind Tunnel Setup](images/wind-tunnel.png)
 
