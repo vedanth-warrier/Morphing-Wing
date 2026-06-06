@@ -63,7 +63,7 @@ configurations as follows:
 | 2    | 5°             | 10° down | 341       | 60        | 5.68 |
 | 3    | 10°            | 20° down | 542       | 130       | 4.17 |
 
-Tests 1→2 demonstrate that with moderate morphing and increased 
+Tests 1→2 demonstrate that moderate morphing and increased 
 angle of attack improves L/D without the typical drag penalty that comes
 from increasing the angle of attack, suggesting that the morphing
 successfully reduced the drag. Test 3 shows the tradeoff where greater 
