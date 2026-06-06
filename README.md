@@ -1,8 +1,8 @@
 # Morphing Wing Aerodynamic Prototype
 
-Second-year university project at UNSW. Designed, fabricated, and 
-tested a scale morphing wing prototype capable of dynamically altering 
-its aerodynamic profile across simulated flight conditions.
+Designed, fabricated, and tested a scale morphing wing prototype capable 
+of dynamically altering its aerodynamic profile across simulated flight 
+conditions.
 
 ## Overview
 
