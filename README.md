@@ -1,4 +1,4 @@
-# Morphing Wing Aerodynamic Prototype
+# Morphing Wing Prototype
 Designed a scale morphing wing prototype capable of altering its aerodynamic
 profile using SolidWorks, fabricated it using laser-cutting and 3D printing, 
 and tested it using a wind-tunnel.
