@@ -34,7 +34,7 @@ to 5.68) validated through wind tunnel testing.
 ### Failure Analysis
 <img src="images/failure-acrylic.png" width="50%">
 <img src="images/failure-plywood.png" width="50%">
-<img src="images/stress-analysis.png" width="50%">
+<img src="images/stress-simulation.png" width="50%">
 
 ### Final Prototype
 <img src="images/cad-front.png" width="50%">
